@@ -164,7 +164,7 @@
 		<img src="sarajevo.jpg" style="width:100%"/>
 		</div>
 		<div class="mySlides1 fade">
-		<img src="sarajevo1.jpg" style="width:100%"/>
+		<img src="sarajevo2.jpg" style="width:100%"/>
 		</div>
 		<div class="mySlides1 fade">
 		<img src="sarajevo3.jpg" style="width:100%"/>
