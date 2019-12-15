@@ -277,12 +277,16 @@
 	</div>
 
 <div id="repository">
- 	<p>You can use the following link to access my previous webpage were I used only HTML: 
+ 	<p>You can use the following link to access my first webpage were I used only HTML: 
  	<a href="https://yashmm.github.io/CV/"> First Progress </a> </p>
-	<p>You can use the following link to access my Repository 1 
+	<p>You can use the following link to access my  
 		<a href="https://github.com/Yashmm/CV"> Repository 1 </a> </p>
-	<p>You can use the following link to access my Repository 2
+	<p>You can use the following link to access my second webpage were I used HTML with CSS: 
+ 	<a href="https://yashmm.github.io/Sarah/"> Second Progress </a> </p>
+	<p>You can use the following link to access my 
 		<a href="https://github.com/Yashmm/Sarah"> Repository 2 </a> </p>
+	<p><p>You can use the following link to access 
+ 	<a href="https://yashmm.github.com/Yashmm/yashmm"> Repository 3 </a> </p>
  	</div>
 
    
