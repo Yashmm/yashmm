@@ -1,0 +1,91 @@
+#wrapper	{ width:100%; margin:0px auto; background-image:url('../images/bl.jpg')}
+#top	{ background-color:black; width:100%;overflow:hidden;
+   		border-bottom:1px #eeeeee solid;	}
+#name { margin:0 0 0 10px; float:left; color:white;	}
+#social-media { float:right; margin:0 10px 0 0; 	}
+#social-media p { color:white; font-size:18px; margin:4px 10px 4px 0px; }
+#social-media img { width:30px; height: 30px; }
+#social-media ul li { display:inline; }
+
+#banner	{ width:100%;	}
+#subbanner    { width:100%; height:20%; background-color:black; padding:3px 0; overflow:hidden;}
+#subbanner h3 { color:#ffffff; font-size:24px; font-weight:bold; text-align:center; line-height:50%;}
+
+
+#topnav { background-color:black; clear:both;	}
+#topnav ul { width:100%; float:left; margin:0px; background-color:black;
+			border-bottom:3px #cccccc solid; text-align:center; }
+#topnav ul li { display:inline; text-align:center;}
+#topnav ul li a { float:left; padding:10px 20px; text-align:center;}
+
+
+#topnav a:link { color:#ffffff;}
+#topnav a:visited { color:#ffffff;}
+#topnav a:active { color:#ffffff;}
+#topnav a:hover { color:#ffffff; background-color:#666666;}
+#topnav a:focus { color:#ffffff;}
+
+#info{ width:100%; display:inline-block; background-color:#CCCCFF}
+#info p { margin-left:15%; margin-right:15%; font-family:"Informal Roman"; font-size:30px; text-align:justify; display:inline-block;}
+#info h4 { margin-left:30%; margin-right:30%;}
+#info h3{ margin-left:30%; margin-right:30%; font-size:50px; font-family:"Informal Roman";}
+#info ul li{ margin-left:15%; margin-right:15%; font-family:"Informal Roman"; font-size:20px; text-align:justify;}
+
+#education { width:100%; height:50%;background-color :#CCCCFF}
+#education h4 { font-size:50px; text-align:center; font-family:"Informal Roman";
+}
+#education table,th,td{ border:1px solid black; background-color:#EEEEEE
+}
+#education table { width:100%; border-collapse:collapse;
+}
+#education th,td{ height:50%; padding:15px; text-align:center; font-family:"Informal Roman"; font-size:20px
+
+}
+
+#intership { width:100%; background-color:#CCCCFF;
+}
+#intership h4 { text-align:center; font-size:50px; font-family:"Informal Roman";
+}
+#intership p { text-align:center; font-size:30px; font-family:"Informal Roman";
+}
+
+
+#footer { clear:both;padding:1px 0; background-color:white; margin-left:10%; margin-right:10%}
+#footer p { text-align:left; color:black; font-size:20px; margin-left:10px;}
+
+
+.submit {
+	width:90px; height:25px; margin-left:150px; font-size:12px;
+}
+#footer h4 { font-size:50px; text-align:center;
+}
+
+#footer input[type=submit]{
+  width: 97%;
+  padding: 8px 16px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  display:inline-block;
+  color:white;
+  background-color:#33CC33;
+  
+}
+#footer select{
+	width: 97%;
+  		padding: 8px 16px;
+  		margin: 8px 10px;
+ 	    box-sizing: border-box;
+ 	    background-color:#666666;
+ 	    text-align:center;
+ 	    color:white;
+ 	    border-radius:5px;
+}
+#footer input[type=text] {
+  width: 97%;
+  padding: 8px 16px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  color:white;
+}
