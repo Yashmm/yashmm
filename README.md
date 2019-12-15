@@ -111,6 +111,24 @@
 #repository p { font-size:20px; text-align:center; color: white;
 }
 
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 </style
    <body>
 
@@ -141,10 +159,37 @@
 
 
 	<div id="banner" style="width: 100%; height: 100%">
-		<img src="sarajevo.jpg" width="100%" />
+	<div class="slideshow-container">
+		<div class="mySlides1 fade">
+		<img src="sarajevo.jpg" style="width:100%"/>
+		</div>
+		<div class="mySlides1 fade">
+		<img src="sarajevo1.jpg" style="width:100%"/>
+		</div>
+		<div class="mySlides1 fade">
+		<img src="sarajevo3.jpg" style="width:100%"/>
 	</div>
+	</div>
+	<script>
+	var slideIndex = 0;
+	showSlides();
 
-
+	function showSlides() {
+  	var i;
+  	var slides = document.getElementsByClassName("mySlides1");
+  
+  	for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  	}
+  	slideIndex++;
+  	if (slideIndex > slides.length) {slideIndex = 1}    
+  
+  	slides[slideIndex-1].style.display = "block";  
+  
+  	setTimeout(showSlides, 3500); // Change image every 2 seconds
+	}
+	</script>
+	</div>
 	<div id="subbanner">
 		<h3>WELCOME TO MY PAGE!</h3>
 	</div>
