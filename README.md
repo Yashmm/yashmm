@@ -218,7 +218,7 @@
 			<th> Total years </th>
 			<th> Institution </th>
 			<th> Education level </th>
-			<th> Section </th>
+			<th> Section </th> 
 		</tr>
 		<tr>
 			<td> 2004. - 2013. </td>
