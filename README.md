@@ -153,7 +153,9 @@
 			<li><a href="#info">BASIC INFORMATIONS</a></li>
 			<li><a href="#education">EDUCATION</a></li>
 			<li><a href="#intership">INTERSHIP AND EXPERIENCE</a></li>
-			<li><a href="#footer">CONTACT</a></li>			
+			<li><a href="#footer">CONTACT</a></li>
+			<li><a href="game.html">GAME</a></li>			
+
 		</ul>
 	</div>
 
